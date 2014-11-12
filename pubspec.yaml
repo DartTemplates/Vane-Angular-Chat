@@ -1,7 +1,9 @@
-name: client
+name: vane_angular_chat
 dependencies:
+  vane: '>=0.6.0 <0.7.0'
   angular: "1.0.0"
 
 transformers:
 - angular:
     dart_sdk: "/www/dart-sdk/latest"
+
